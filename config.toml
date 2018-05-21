@@ -1,0 +1,19 @@
+baseURL = "https://shawntoffel.com"
+languageCode = "en-us"
+
+theme = "coder"
+
+[params]
+  author = "Shawn Toffel"
+  hideCredits = true
+  hideCopyright = true
+
+[[params.social]]
+  name = "Github"
+  weight = 1
+  url = "https://github.com/shawntoffel"
+
+[[params.social]]
+  name = "LinkedIn"
+  weight = 2
+  url = "https://www.linkedin.com/in/shawntoffel"
