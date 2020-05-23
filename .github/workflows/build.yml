@@ -34,7 +34,10 @@ jobs:
       with:
         name: public
         path: ./public
- 
+
+    - name: Create CNAME file
+      run: echo -n "shawntoffel.com" > ./public/CNAME
+     
     - name: Deploy to github pages
       uses: peaceiris/actions-gh-pages@v3
       with:
